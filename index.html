@@ -5,18 +5,13 @@
     <meta charset='utf-8' />
 
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <title>太米地图聚合示例</title>
+    <title>地图聚合示例</title>
 
     <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css" />
     <link rel="stylesheet" href="animate.css">
-    <link rel="stylesheet" href="style.css">
-
-    <!--<script src="./rbush.js"></script>
-        <script src="./supercluster.js"></script>  -->
-
+    <link rel="stylesheet" href="style.css"> 
     <script language="javascript" src="http://webapi.amap.com/maps?v=1.3&key=f857763b0f807b672d0e434c67cd0d3c&plugin=AMap.CloudDataLayer,AMap.CloudDataSearch,AMap.PlaceSearch,AMap.Geocoder"></script>
 
-    <!--<script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>-->
 
     <style> 
     </style>
@@ -31,14 +26,7 @@
         var app = mapApp({
             log: false,
             yunSearch_maxPage: 40,
-            openSquareTile: true,
-            //apiUrl:'http://193.168.5.144:8091/',  默认是正式服
-            //squareTileUrl:'http://tiles2-bc7b4da77e971c12cb0e069bffcf2771.skobblermaps.com/TileService/tiles/2.0/01021113210/7/[z]/[x]/[y].png',
-            yunSearch_yunTableId: '56a0c117305a2a32882244b1',   // 云图 表格Id
-            yunSearch_opt_orderBy: 'Weighting:DESC',
-
-            //yunSearch_maxPage: 2,
-            //yunSearch_opt_pageSize: 4                      
+            openSquareTile: true,                  
         });
         app.init();
 
