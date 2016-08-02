@@ -7,3 +7,6 @@ index.v2.js  处理高德数据展示以及获取；
 worker.v2.js  负责高德数据的本地存储以及本地查询；
 cluster.js  负责聚类生成；
 rush.js R树结构。
+
+
+仅限个人学习使用
